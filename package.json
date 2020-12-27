@@ -1,0 +1,17 @@
+{
+  "name": "iSpec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iScottMark/iSpec.git",
+  "author": "ScottMark <xiaoma_hebut@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-mathjax": "^1.2.8"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
