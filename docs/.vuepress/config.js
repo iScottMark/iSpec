@@ -27,9 +27,20 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/iScottMark/iSpec' }
     ],
     displayAllHeaders: false,
-    sidebar: 'auto',
     lastUpdated: 'Last Updated',
     sidebarDepth: 2,
-    collapsable: true
+    collapsable: true,
+    sidebar: {
+      '/guide/': [
+        '',
+        '1',
+        '2',
+        '3',
+        '4',
+        '5',
+        '6',
+        '7',
+      ],
+    },
   }
 }
