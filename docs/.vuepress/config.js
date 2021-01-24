@@ -1,6 +1,9 @@
 module.exports = {
   title: 'iSpec',
   description: 'iSpec 中文使用手册',
+  head: [
+    ['link', {rel: 'short icon', href: '/favicon.ico'}]
+  ],
   plugins: ['@vuepress/back-to-top',
             '@vuepress/last-updated',
             'vuepress-plugin-mathjax',
@@ -27,7 +30,7 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/iScottMark/iSpec' }
     ],
     displayAllHeaders: false,
-    lastUpdated: 'Last Updated',
+    lastUpdated: '最后更新于',
     sidebarDepth: 2,
     collapsable: true,
     sidebar: {
@@ -40,6 +43,7 @@ module.exports = {
         '5',
         '6',
         '7',
+        '8',
       ],
     },
   }
