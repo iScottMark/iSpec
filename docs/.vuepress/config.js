@@ -40,7 +40,7 @@ module.exports = {
       // '/intro/': introSidebarConf(),
       '/installation/': installSidebarConf(),
       '/documentation/': docsSidebarConf(),
-      '/scripting/': scriptSidebarConf(),
+      // '/scripting/': scriptSidebarConf(),
     },
   }
 }
@@ -51,7 +51,19 @@ function introSidebarConf() {
 }
 
 function installSidebarConf() {
-  return ['',];
+  return [
+    '',
+    {
+      title: 'Ubuntu GNU/Linux',
+      children: ['/installation/Linux/intro', '/installation/Linux/Anaconda_Python3', '/installation/Linux/APT', '/installation/Linux/APT+VirtualEnv', '/installation/Linux/Source'],
+      collapsable: false
+    },
+    {
+      title: 'OSX',
+      children: ['/installation/OSX/intro', '/installation/OSX/Anaconda_Python3', '/installation/OSX/MacPorts', '/installation/OSX/Homebrew'],
+      collapsable: false
+    }
+];
 }
 
 function docsSidebarConf() {
