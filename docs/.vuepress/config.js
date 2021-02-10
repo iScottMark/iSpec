@@ -67,7 +67,26 @@ function installSidebarConf() {
 }
 
 function docsSidebarConf() {
-  return ['', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+  return [
+    {
+      title: 'iSpec 使用手册',
+      children: [
+        '/documentation/1',
+        '/documentation/2',
+        '/documentation/3',
+        '/documentation/4',
+        '/documentation/5',
+        '/documentation/6',
+        '/documentation/7',
+        '/documentation/8',
+        '/documentation/9',
+        '/documentation/10',
+        '/documentation/11',
+        '/documentation/12',
+      ],
+      collapsable: false
+    }
+  ];
 }
 
 function scriptSidebarConf() {
