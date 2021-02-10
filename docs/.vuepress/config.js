@@ -69,7 +69,7 @@ function installSidebarConf() {
 function docsSidebarConf() {
   return [
     {
-      title: 'iSpec 使用手册',
+      title: '目 录',
       children: [
         '/documentation/1',
         '/documentation/2',

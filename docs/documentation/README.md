@@ -2,7 +2,7 @@
 
 [欢迎在 Issues 提出修改意见](https://github.com/iScottMark/iSpec/issues)
 
-<h1>目录</h1>
+<h1>目 录</h1>
 
 ---
 
