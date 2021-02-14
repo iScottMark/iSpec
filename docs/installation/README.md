@@ -1,6 +1,6 @@
 # 下载
 
-安装 iSpec 所需环境的最简单方法就是直接使用 Anaconda Python3，但使用分发在其他平台如 [GNU/Linux](./Linux/intro.html) 和 [OSX](./OSX/intro.html) 下的 Python 也是可以的。遵循以下哪个安装说明取决于你想要的安装方式。
+安装 iSpec 所需环境的最简单方法就是直接使用 Anaconda Python3，但使用在其他平台如 [GNU/Linux](./Linux/intro.html) 和 [OSX](./OSX/intro.html) 下的 Python 发行版也是可以的。遵循以下哪个安装说明取决于你想要的安装方式。
 
 **源码下载**
 
