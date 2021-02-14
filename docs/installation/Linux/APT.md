@@ -1,6 +1,6 @@
 # APT
 
-基于 Debian 的 GNU/Linux 发行版本，如 Ubuntu 或 Linux Mint，使用包管理器（例如 `sudo apt install package_name`）安装下面的包。
+在基于 Debian 的 GNU/Linux 发行版本下，如 Ubuntu 或 Linux Mint，使用包管理器（例如 `sudo apt install package_name`）安装下面的包：
 
 - `build-essential`
 - `gfortran`

@@ -43,7 +43,7 @@ conda update --all
 conda install lockfile dill
 ```
 
-- 基于 Debian 的 GNU/Linux 发行版本，如 Ubuntu 或 Linux Mint，使用包管理器（例如 `sudo apt install package_name`）安装下面的包。这是唯一需要 root 权限的一步（幸运的是，许多机器已经上包含了这些工具，你并不要安装它们）：
+- 在基于 Debian 的 GNU/Linux 发行版本下，如 Ubuntu 或 Linux Mint，使用包管理器（例如 `sudo apt install package_name`）安装下面的包。这是唯一需要 root 权限的一步（幸运的是，许多机器已经上包含了这些工具，你并不要安装它们）：
 
 ``` bash
 sudo apt install build-essential gfortran libgfortran3
