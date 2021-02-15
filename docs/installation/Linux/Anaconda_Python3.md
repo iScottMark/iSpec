@@ -53,7 +53,7 @@ sudo apt install build-essential gfortran libgfortran3
 译者注：译者在安装时，操作系统为 **Ubuntu 20.04 LTS**，发现其中的 `libgfortran3` 已被 **Ubuntu 20.04 LTS** 弃用，无法正常安装该包及其依赖项。最后译者的解决方法为安装 `libgfortran5`，目前程序基本功能运行正常；但译者不推荐这么做，请尽量选择在 **Ubuntu 18.04 LTS** 或是更早版本的系统下进行安装。
 :::
 
-- 最后，下载 [iSpec 源码](/installation/)，解压并移动到 `$HOME/iSpec/` 下。在该目录下打开终端，并运以下命令：
+- 最后，下载 [iSpec 源码](/installation/)，解压并移动到 `$HOME/iSpec/` 下。在 `iSpec` 目录下打开终端，并运行以下命令：
 
 ``` bash
 make clean
