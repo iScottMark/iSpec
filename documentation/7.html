@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>7.吸收线 | iSpec</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="short icon" href="/iSpec/favicon.ico">
+    <meta name="description" content="iSpec 中文使用手册">
+    
+    <link rel="preload" href="/iSpec/assets/css/0.styles.6cae2fab.css" as="style"><link rel="preload" href="/iSpec/assets/js/app.4694e7eb.js" as="script"><link rel="preload" href="/iSpec/assets/js/2.0be9c587.js" as="script"><link rel="preload" href="/iSpec/assets/js/17.0233ad0f.js" as="script"><link rel="prefetch" href="/iSpec/assets/js/10.9919ddf7.js"><link rel="prefetch" href="/iSpec/assets/js/11.9b4309b0.js"><link rel="prefetch" href="/iSpec/assets/js/12.08ec5e50.js"><link rel="prefetch" href="/iSpec/assets/js/13.e03c0e1c.js"><link rel="prefetch" href="/iSpec/assets/js/14.7a2ebc27.js"><link rel="prefetch" href="/iSpec/assets/js/15.5699a703.js"><link rel="prefetch" href="/iSpec/assets/js/16.b945bb80.js"><link rel="prefetch" href="/iSpec/assets/js/18.6085eed4.js"><link rel="prefetch" href="/iSpec/assets/js/19.c3dc568b.js"><link rel="prefetch" href="/iSpec/assets/js/20.bdad2404.js"><link rel="prefetch" href="/iSpec/assets/js/21.bd31ba3f.js"><link rel="prefetch" href="/iSpec/assets/js/22.f1fea54b.js"><link rel="prefetch" href="/iSpec/assets/js/23.ef20635d.js"><link rel="prefetch" href="/iSpec/assets/js/24.98a8b202.js"><link rel="prefetch" href="/iSpec/assets/js/25.52ed41c3.js"><link rel="prefetch" href="/iSpec/assets/js/26.df5bf8ca.js"><link rel="prefetch" href="/iSpec/assets/js/27.68ce4799.js"><link rel="prefetch" href="/iSpec/assets/js/28.a94bff13.js"><link rel="prefetch" href="/iSpec/assets/js/29.8d9759c7.js"><link rel="prefetch" href="/iSpec/assets/js/3.0a0a0bfb.js"><link rel="prefetch" href="/iSpec/assets/js/30.f62be575.js"><link rel="prefetch" href="/iSpec/assets/js/31.812052c2.js"><link rel="prefetch" href="/iSpec/assets/js/32.d94c6096.js"><link rel="prefetch" href="/iSpec/assets/js/4.a0a61f31.js"><link rel="prefetch" href="/iSpec/assets/js/5.dc957a05.js"><link rel="prefetch" href="/iSpec/assets/js/6.b9a0c187.js"><link rel="prefetch" href="/iSpec/assets/js/7.a7aa3cf7.js"><link rel="prefetch" href="/iSpec/assets/js/8.e9b1165e.js"><link rel="prefetch" href="/iSpec/assets/js/9.5d1abf28.js">
+    <link rel="stylesheet" href="/iSpec/assets/css/0.styles.6cae2fab.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/iSpec/" class="home-link router-link-active"><!----> <span class="site-name">iSpec</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/iSpec/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/iSpec/intro/" class="nav-link">
+  简介
+</a></div><div class="nav-item"><a href="/iSpec/installation/" class="nav-link">
+  安装
+</a></div><div class="nav-item"><a href="/iSpec/documentation/" class="nav-link router-link-active">
+  文档
+</a></div><div class="nav-item"><a href="/iSpec/scripting/" class="nav-link">
+  脚本
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/iSpec/documentation/" class="nav-link router-link-active">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="https://www.blancocuaresma.com/s/iSpec/manual/introduction" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  English
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://github.com/iScottMark/iSpec" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/iSpec/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/iSpec/intro/" class="nav-link">
+  简介
+</a></div><div class="nav-item"><a href="/iSpec/installation/" class="nav-link">
+  安装
+</a></div><div class="nav-item"><a href="/iSpec/documentation/" class="nav-link router-link-active">
+  文档
+</a></div><div class="nav-item"><a href="/iSpec/scripting/" class="nav-link">
+  脚本
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/iSpec/documentation/" class="nav-link router-link-active">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="https://www.blancocuaresma.com/s/iSpec/manual/introduction" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  English
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://github.com/iScottMark/iSpec" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>目 录</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/iSpec/documentation/1.html" class="sidebar-link">1.基本操作</a></li><li><a href="/iSpec/documentation/2.html" class="sidebar-link">2.区域</a></li><li><a href="/iSpec/documentation/3.html" class="sidebar-link">3.速度</a></li><li><a href="/iSpec/documentation/4.html" class="sidebar-link">4.流量误差</a></li><li><a href="/iSpec/documentation/5.html" class="sidebar-link">5.分辨率</a></li><li><a href="/iSpec/documentation/6.html" class="sidebar-link">6.连续谱</a></li><li><a href="/iSpec/documentation/7.html" aria-current="page" class="active sidebar-link">7.吸收线</a></li><li><a href="/iSpec/documentation/8.html" class="sidebar-link">8.其他操作</a></li><li><a href="/iSpec/documentation/9.html" class="sidebar-link">9.合成光谱</a></li><li><a href="/iSpec/documentation/10.html" class="sidebar-link">10.插值</a></li><li><a href="/iSpec/documentation/11.html" class="sidebar-link">11.大气参数</a></li><li><a href="/iSpec/documentation/12.html" class="sidebar-link">12.化学丰度</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_7-吸收线"><a href="#_7-吸收线" class="header-anchor">#</a> 7.吸收线</h1> <h2>线拟合</h2> <p>对于每个定义的 <code>line masks</code>，都可以使用菜单栏中的 <code>Operations - Fit lines</code> 选项来进行高斯拟合（会移除不能进行拟合的 <code>line masks</code>）。对光谱进行径向速度的校正和连续谱的拟合是必需的。如果显示的分辨率不为 0 （可选），则会对光谱进行平滑处理（FWHM 的高斯函数正比于分辨率），以减少过程中低信噪比可能产生的影响。</p> <p>相对于大气吸收线的速度应事先通过菜单栏中的 <code>Parameters - Determine velocity respect to... - Telluric line mask</code> 进行计算。</p> <center><p><img src="https://www.blancocuaresma.com/s/user/pages/02.projects/03.iSpec/manual/03.usage/09.lines/iSpec_fit_lines.png" alt="fit lines"></p></center> <p>拟合的线将与（可由用户选择的）原子线表进行交叉匹配，并且如果理论和测量波长峰值之间的差值小于给定的限制，则将原子信息关联到 <code>line</code> 区域。如果在限制条件内有多条线，则将选择具有最大理论等值宽度（相对于太阳大气的值）的线。</p> <p>用户还可以选择自由拟合测量的波长峰值，而不是使用关联到每一个 <code>line</code> 区域的 <code>line mark</code>。如果用户勾选了 <code>check derivatives before fitting</code>，则将使用 2 阶和 3 阶导数来微调 <code>line masks</code> 的起止位置。</p> <p>最后，任何会受到大气吸收线影响的线，iSpec 会将这些线与大气吸收线表交叉匹配，并用符号 <code>*</code> 来标记。</p> <p>如果用户选择 <code>Stats</code> 并单击了一个 <code>line</code> 区域，则会显示与拟合及交叉匹配相关的信息。</p> <center><p><img src="https://www.blancocuaresma.com/s/user/pages/02.projects/03.iSpec/manual/03.usage/09.lines/iSpec_fitted_lines.png" alt="fit lines"></p></center> <p>可以通过菜单栏中的 <code>Operations - Clear - Fitted lines</code> 移除已拟合的线。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新于:</span> <span class="time">2/8/2021, 8:12:45 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/iSpec/documentation/6.html" class="prev">
+        6.连续谱
+      </a></span> <span class="next"><a href="/iSpec/documentation/8.html">
+        8.其他操作
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/iSpec/assets/js/app.4694e7eb.js" defer></script><script src="/iSpec/assets/js/2.0be9c587.js" defer></script><script src="/iSpec/assets/js/17.0233ad0f.js" defer></script>
+  </body>
+</html>
