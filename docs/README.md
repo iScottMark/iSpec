@@ -12,5 +12,5 @@ features:
   details: 图形化操作界面，开箱即用，操作友好，所见即所得。
 - title: 自动分析
   details: iSpec 同样提供了 Python 脚本，使得复杂研究的分析更为方便。
-footer: MIT Licensed | Translated @ ScottMark
+footer: MIT Licensed | Copyright @ Blanco-Cuaresma | Translated @ ScottMark
 ---
